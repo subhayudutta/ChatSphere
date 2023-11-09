@@ -1,0 +1,118 @@
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+.myhome{
+  height: 100%;
+  margin: 0px;
+}
+.container {
+  max-width: 960px;
+}
+
+.pricing-header {
+  max-width: 700px;
+}
+
+.card-deck .card {
+  min-width: 220px;
+}
+
+.border-top { border-top: 1px solid #e5e5e5; }
+.border-bottom { border-bottom: 1px solid #e5e5e5; }
+
+.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+
+.chat-messages {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+}
+
+.input-fix{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #D3FFCE;
+  color: #fff;
+  padding: 10px;
+}
+
+.chat-message-left,
+.chat-message-right {
+  display: flex;
+  flex-shrink: 0
+}
+
+.chat-message-left {
+  margin-right: auto
+}
+
+.chat-message-right {
+  flex-direction: row-reverse;
+  margin-left: auto
+}
+
+.sbdutt{
+  width:500px;
+  word-wrap:break-word,
+}
+
+@media (max-width: 768px) {
+  .sbdutt {
+    width: 300px; 
+  }
+}
+
+@media (max-width: 580px) {
+  .sbdutt {
+    width: 250px; 
+  }
+}
+
+@media (max-width: 500px) {
+  .sbdutt {
+    width: 200px; 
+  }
+}
+
+@media (max-width: 420px) {
+  .sbdutt {
+    width: 150px; 
+  }
+}
+
+@media (max-width: 360px) {
+  .sbdutt {
+    width: 100px; 
+  }
+}
+
+@media (max-width: 300px) {
+  .sbdutt {
+    width: 50px; 
+  }
+}
+
+/* Hide the scrollbar but enable scrolling */
+.scrollable-container::-webkit-scrollbar {
+  width: 0.1em;
+}
+
+.scrollable-container::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}
+
+/* For Firefox */
+.scrollable-container {
+  scrollbar-width: thin;
+}
+
+.scrollable-container::-webkit-scrollbar-track {
+  background: transparent;
+}
